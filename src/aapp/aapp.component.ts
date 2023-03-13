@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './aapp.component.html',
   styleUrls: ['./aapp.component.css']
 })
-export class AappComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class AppComponent {
+  title = 'todo-list';
 }
